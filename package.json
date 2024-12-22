@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "test": "cypress run",
+    "test:headed": "cypress open",
+    "test:desktop": "cypress run --env view-port=desktop --browser chrome",
+    "test:tablet": "cypress run --env view-port=tablet --browser chrome", 
+    "test:mobile": "cypress run --env view-port=mobile --browser chrome", 
+    "test:edge:desktop": "cypress run --env view-port=desktop --browser edge",
+    "test:edge:tablet": "cypress run --env view-port=tablet --browser edge", 
+    "test:edge:mobile": "cypress run --env view-port=mobile --browser edge"
+  },
+  "dependencies": {
+    "cypress": "^13.17.0"
+  }
+}
